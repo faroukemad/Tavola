@@ -3,22 +3,13 @@ import './footer.scss'
 import { CiLocationOn } from "react-icons/ci";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import Lottie from 'react-lottie';
-import pizza from '../../pizza.json'
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
 
 
 
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: pizza,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-        }
-    };
+   
 
     return (
         <div className='footer p-5' id="footer">

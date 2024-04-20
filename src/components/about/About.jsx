@@ -1,14 +1,8 @@
-import React, { useEffect } from "react";
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import React from "react";
 import './about.scss';
-import { BiCoffee } from 'react-icons/bi'
-import { CiCoffeeBean } from 'react-icons/ci'
-import { MdOutlineCoffeeMaker } from 'react-icons/md'
-import Aboutslider from './Aboutslider';
+
 import { GiFruitBowl } from "react-icons/gi";
 import { TbChefHat } from "react-icons/tb";
-import { BiSolidDrink } from "react-icons/bi";
 import { IoFastFoodOutline } from "react-icons/io5";
 
 const About = () => {
@@ -42,48 +36,48 @@ const About = () => {
         </div>
         <div className="about-cont2-containers">
           <div className="about-cont2-container">
-              <div className="about-cont2-circle">
-                <GiFruitBowl className="about-cont2-fruit"/>
-              </div>
-              <div className="about-cont2-fresh">
-                Fresh Products
-              </div>
-              <div className="about-cont2-lorem2">
+            <div className="about-cont2-circle">
+              <GiFruitBowl className="about-cont2-fruit" />
+            </div>
+            <div className="about-cont2-fresh">
+              Fresh Products
+            </div>
+            <div className="about-cont2-lorem2">
               Lorem Ipsum is simply dummy text of the printing and
-              </div>
+            </div>
           </div>
           <div className="about-cont2-container">
-              <div className="about-cont2-circle">
-                <TbChefHat className="about-cont2-fruit"/>
-              </div>
-              <div className="about-cont2-fresh">
-                Fresh Products
-              </div>
-              <div className="about-cont2-lorem2">
+            <div className="about-cont2-circle">
+              <TbChefHat className="about-cont2-fruit" />
+            </div>
+            <div className="about-cont2-fresh">
+              Fresh Products
+            </div>
+            <div className="about-cont2-lorem2">
               Lorem Ipsum is simply dummy text of the printing and
-              </div>
+            </div>
           </div>
           <div className="about-cont2-container">
-              <div className="about-cont2-circle">
-                <IoFastFoodOutline className="about-cont2-fruit"/>
-              </div>
-              <div className="about-cont2-fresh">
-                Fresh Products
-              </div>
-              <div className="about-cont2-lorem2">
+            <div className="about-cont2-circle">
+              <IoFastFoodOutline className="about-cont2-fruit" />
+            </div>
+            <div className="about-cont2-fresh">
+              Fresh Products
+            </div>
+            <div className="about-cont2-lorem2">
               Lorem Ipsum is simply dummy text of the printing and
-              </div>
+            </div>
           </div>
           <div className="about-cont2-container">
-              <div className="about-cont2-circle">
-                <IoFastFoodOutline className="about-cont2-fruit"/>
-              </div>
-              <div className="about-cont2-fresh">
-                Fresh Products
-              </div>
-              <div className="about-cont2-lorem2">
+            <div className="about-cont2-circle">
+              <IoFastFoodOutline className="about-cont2-fruit" />
+            </div>
+            <div className="about-cont2-fresh">
+              Fresh Products
+            </div>
+            <div className="about-cont2-lorem2">
               Lorem Ipsum is simply dummy text of the printing and
-              </div>
+            </div>
           </div>
         </div>
       </div>

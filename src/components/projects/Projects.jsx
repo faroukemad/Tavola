@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import Slider from './Slider';
+import React from "react";
+
 import './projects.scss'
 import { CiPercent } from "react-icons/ci";
 import { GiSandwich } from "react-icons/gi";

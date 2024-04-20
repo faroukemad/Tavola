@@ -1,6 +1,5 @@
 import './App.css';
 import Topbar from "./components/topbar/Topbar";
-import Intro from  "./components/intro/Intro";
 import Projects from './components/projects/Projects';
 import Contact from './components/email/Contact';
 import {useState,useEffect} from "react";
@@ -9,7 +8,6 @@ import Footer from './components/footer/Footer';
 import { motion, useScroll, useSpring } from "framer-motion";
 import Lottie from 'react-lottie';
 import cooking  from './cooking.json'
-import Up from './components/up/Up';
 import Menu from './components/menu/Menu';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -24,7 +22,6 @@ function App() {
   const[menuOpen, setMenuOpen]= useState(false)
   const [backOpen,setBackOpen]= useState(false)
   const [loading,setLoading]=useState(false)
-  const [load,setLoad]=useState(false)
 
   
   const defaultOptions = {
@@ -57,7 +54,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },0)
+    },5000)
   },[])
 
 

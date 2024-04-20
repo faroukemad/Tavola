@@ -756,6 +756,7 @@
 	display: flex;
 	align-items: center;
 	gap: 50px;
+	margin: auto;
 }
 
 .swiper-customer-img {
@@ -778,6 +779,9 @@
 	height: 100%;
 	object-fit: cover;
 	border-radius: 15px;
+	@include ipad{
+		object-fit: contain;
+	}
 }
 
 .swiper-cutomer-review {
@@ -816,6 +820,7 @@
 	line-height: 30px;
 	font-size: 18px;
 	font-weight: 500;
+	text-align: center;
 }
 
 .swiper-green-line {
