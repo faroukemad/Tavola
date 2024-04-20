@@ -1,0 +1,150 @@
+@import '../global/global.scss';
+
+.menu {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-cont {
+    background-image: url("../../../public/assests/project.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-cont-home-ourmenu {
+    background-color: #7da640;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.menu-cont-ourmenu {
+    font-size: 70px;
+    font-family: "lobster";
+}
+
+.menu-cont2 {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    padding: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    @include mob{
+        flex-direction: column;
+        padding: 15px;
+    }
+}
+
+.menu-cont2-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    @include mob{
+        margin: 10px;
+    }
+}
+
+.menu-cont2-starters {
+    font-family: "lobster";
+    color: #7da640;
+    font-size: 40px;
+}
+
+.menu-cont2-Creamy-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-cont2-creamy {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color .5s ease-out;
+    cursor: pointer;
+
+    &:hover {
+        color: #7da640;
+    }
+}
+
+.menu-cont2-dots {
+    color: black;
+    margin: 0 20px;
+}
+
+.menu-cont2-price {
+    color: #7da640;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-cont2-lorem {
+    color: #666;
+    font-size: 18px;
+}
+
+.menu-cont2-veg-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 600px;
+    z-index: -1;
+
+    @include ipad {
+        width: 300px;
+        height: 500px;
+    }
+
+    @include mob {
+        display: none;
+    }
+}
+
+.menu-cont2-veg-img img {
+    width: 100%;
+    height: 100%;
+    animation: dzMoveDown 7s infinite;
+}
+
+@keyframes dzMoveDown {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    25% {
+        -webkit-transform: translateY(-25px);
+        transform: translateY(-25px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    75% {
+        -webkit-transform: translateY(-25px);
+        transform: translateY(-25px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}

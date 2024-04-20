@@ -1,0 +1,229 @@
+@import '../global/global.scss';
+
+
+.contact {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-cont {
+    background-image: url("../../../public/assests/project.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @include mob {
+        min-height: auto;
+        height: 350px;
+    }
+}
+
+.contact-cont-home-contact {
+    background-color: #7da640;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 18px;
+
+    @include mob {
+        font-size: 15px;
+        padding: 0.5rem 0.75rem;
+    }
+}
+
+.contact-cont-contactus {
+    font-size: 70px;
+    font-family: "lobster";
+
+    @include mob {
+        font-size: 45px;
+
+    }
+}
+
+.contact-cont2 {
+    display: flex;
+    align-items: center;
+
+    margin-top: 150px;
+    background-color: #2222220a;
+    width: 90%;
+    align-self: center;
+    flex-direction: column;
+}
+
+.contact-cont2-icons-cont {
+    padding: 90px 40px 30px;
+
+    box-shadow: 0 15px 55px #22222226;
+    border-radius: 10px;
+    transition: all .5s;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include ipad {
+        padding: 65px 20px 30px;
+    }
+
+    @include mob {
+        width: 95%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 30px 20px;
+    }
+}
+
+.contact-cont2-location {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact-cont2-6952 {
+    color: black;
+    font-size: 20px;
+}
+
+.contact-cont2-melbource {
+    color: black;
+    font-size: 20px;
+}
+
+.contact-cont2-icon {
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    background-color: #fff;
+    box-shadow: 0 15px 55px #22222226;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mob {
+        display: none;
+    }
+}
+
+.contact-cont2-icon-1 {
+    fill: #7da640;
+    width: 50px;
+    height: 50px;
+}
+
+.contact-cont2-icon-2 {
+    fill: #7da640;
+    width: 40px;
+    height: 40px;
+    display: none;
+
+    @include mob {
+        display: block;
+    }
+}
+
+.contact-cont2-reservation {
+    font-size: 60px;
+    font-family: "lobster";
+    color: black;
+    margin-top: 100px;
+    @include mob{
+        font-size: 30px;
+    }
+}
+
+.contact-cont2-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    @include mob {
+        flex-wrap: wrap;
+    }
+}
+
+.contact-cont2-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+    @include mob{
+        padding: 25px;
+    }
+}
+
+.contact-cont2-3-1 {
+    display: flex;
+    @include mob{
+        flex-direction: column;
+    }
+}
+
+.contact-cont2-yourname {
+    color: #7da640;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    @include mob{
+        width: 100%;
+    }
+}
+
+.contact-cont2-3-2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cotact-cont2-message {
+    color: #7da640;
+    font-size: 20px;
+}
+
+.cotact-cont2-hi {
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    @include mob{
+        font-size: 20px;
+    }
+}
+
+.contact-cont2-3-4 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cotact-cont2-book {
+    background-color: #7da640;
+    padding: .75rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    border: none;
+}
+
+.contact-cont2-input {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+}

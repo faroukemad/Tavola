@@ -1,0 +1,200 @@
+@import '../global/global.scss';
+
+.footer{
+    width: 100%;
+   
+    background-color: #222;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+    color: white;
+    transition: all 1s ease;
+    display: flex;
+    flex-direction: column;
+    @include mob{
+        overflow: hidden;
+      }
+    
+    p{
+        color: #ccc;
+    }
+    
+    .p-margin{
+        margin: 0;
+    }
+    
+   .footer-location{
+    width: 50px;
+    height: 50px;
+    fill: #7da640;
+   }
+   .footer-phone{
+    width: 30px;
+    height: 30px;
+    fill: #7da640;
+   }
+    
+    
+    .pizza{
+        width: 100px !important;
+        height: 100px !important;
+        overflow:hidden;
+    }
+    
+    
+    }
+    .leftComp{
+        width: 50px;
+        height: 30px;
+        overflow: hidden;
+        z-index: 99;
+        }
+        .leftComp img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+        .topbar-cont-contact{
+            // margin-bottom: 0;
+            text-decoration: none;
+            color: black;	
+            position: relative;
+            transition: all .5s ease-out;
+            // font-size: 20px;
+          
+           }
+           .footer-width{
+            @include mob{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+           }
+           .footer-flex{
+            @include mob{
+               flex-direction: column;
+            }
+           }
+//     .wrapper{
+//         margin-top: 50px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+
+        
+//         .imgCont{
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             flex-direction: column;
+//             width: 100px;
+//             height: 140px;
+//             margin-left: 50px;
+//             margin-top: 20px;
+//             overflow: hidden;
+//             margin-right: 50px;
+
+//             .nav{
+//                 visibility: hidden;
+//                 animation: Blink 2s infinite;
+//             }
+//             @keyframes Blink {
+//                 100%{   opacity:0;}
+//             }
+
+//             &:hover {
+//                 .nav{  visibility:visible;
+                        
+//                 }
+//             }
+//                 .x{
+//                     overflow: hidden;
+//                 }
+            
+
+//             img{
+//                 object-fit: contain;
+//                 width: 100%;
+//                 height: 100%;
+//                 cursor: pointer;
+
+          
+                
+//             }
+//         }
+//         .social{
+//             display: flex;
+//             align-items: center;
+//             justify-content:space-evenly;
+//             margin-top: 10px;
+//             width: 520px;
+//             height: 50px;
+//             font-weight: bold;
+//             font-size: 18px;
+
+//             @include mob{
+//                 width: 380px;
+//             }
+//             .linkdin{
+//                 cursor: pointer;
+
+//             }
+//             .github{
+//                 cursor: pointer;
+//                 padding: 1px;
+//             }
+//             .behance{
+//                 cursor: pointer;
+
+//             }
+//             .codepen{
+
+//                 cursor: pointer;
+
+//             }
+
+//         }
+//         .word{
+//             margin-top: 15px;
+//             font-weight: 500;
+//             font-size: 12px;
+//         }
+
+//     }
+// }
+// .soc {
+//     position: relative;
+//     text-decoration: none;
+//     color: lightgrey;
+//     font-size: 20px;
+//     font-weight: bold;
+//     padding-bottom: 5px;
+    
+
+//   }
+  
+//   .soc:hover {
+//     color:white;
+
+//   }
+  
+//   .soc::before {
+//     content: "";
+//     position: absolute;
+//     display: block;
+//     width: 100%;
+//     height: 4px;
+//     bottom: 0;
+//     left: 0;
+//     background-color: lightblue;
+//     margin-top: 10px;
+//     transform: scaleX(0);
+//     transition: transform 0.3s ease;
+//   }
+  
+//   .soc:hover::before {
+//     transform: scaleX(1);
+//   }
+
+//   img:hover > .nav{margin-left: 50px;}
