@@ -1,6 +1,5 @@
 import { React, useState } from 'react'
 import './contact.scss'
-import { Close } from '@material-ui/icons';
 import { CiLocationOn } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";

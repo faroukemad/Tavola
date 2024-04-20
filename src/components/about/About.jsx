@@ -6,9 +6,6 @@ import { BiCoffee } from 'react-icons/bi'
 import { CiCoffeeBean } from 'react-icons/ci'
 import { MdOutlineCoffeeMaker } from 'react-icons/md'
 import Aboutslider from './Aboutslider';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import { GiFruitBowl } from "react-icons/gi";
 import { TbChefHat } from "react-icons/tb";
 import { BiSolidDrink } from "react-icons/bi";

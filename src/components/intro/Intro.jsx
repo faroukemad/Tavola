@@ -1,12 +1,7 @@
 import React, { useRef } from "react";
 import "./intro.scss";
-import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
-import Lottie from "react-lottie";
 import scroll from "../../scroll.json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import IntroSlider from "./IntroSlider";
 
 // import ReactFullpage from "@fullpage/react-fullpage";
